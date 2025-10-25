@@ -1,0 +1,11 @@
+DEPLOY TO GITHUB PAGES:
+1. Create repo on GitHub
+2. Push your code:
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin YOUR_REPO_URL
+   git push -u origin main
+3. Go to Settings > Pages > Deploy from main branch
+4. Get URL: https://username.github.io/repo-name/rsvp.html

@@ -1,0 +1,1652 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #111827;
+    background-color: #F4F5F7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Main Container */
+.plans---rsvp-hide-location {
+    width: 100%;
+    min-height: 100vh;
+    background: #F4F5F7;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.frame-1171276088 {
+    width: 964px;
+    max-width: 100%;
+    padding: 34.17px;
+    background: white;
+    border-radius: 21.36px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: inline-flex;
+    margin-top: 0;
+}
+
+/* Event Details Banner */
+.event-details-banner {
+    width: 293.67px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    align-self: stretch;
+}
+
+.div {
+    width: 293.67px;
+    background: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+    flex: 1;
+}
+
+/* Event Image */
+.div_01 {
+    align-self: stretch;
+    width: 100%;
+    height: 293.62px;
+    box-shadow: 0px 4.271605014801025px 8.54321002960205px rgba(0, 0, 0, 0.04);
+    border-radius: 17.09px;
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+}
+
+/* Hosted By Section */
+.frame-1171276092 {
+    width: 100%;
+    max-width: 293.62px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 13.88px;
+    display: flex;
+}
+
+.h3 {
+    background: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    gap: 8.54px;
+    display: inline-flex;
+}
+
+.hostedby_span {
+    color: #1F2937;
+    font-size: 12.41px;
+    font-family: 'VAG Rundschrift D';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.div_02 {
+    align-self: stretch;
+    background: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9.31px;
+    display: flex;
+}
+
+.avatar {
+    width: 29.90px;
+    height: 29.90px;
+    border-radius: 50%;
+    outline: 1.07px #151E52 solid;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+}
+
+.ted-johansson {
+    display: flex;
+    align-items: center;
+}
+
+.tedjohansson_span {
+    color: #374151;
+    font-size: 12.41px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+.div_03 {
+    align-self: stretch;
+    background: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9.31px;
+    display: flex;
+}
+
+.avatar_01 {
+    width: 29.90px;
+    height: 29.90px;
+    background: #AA9C75;
+    border-radius: 50%;
+    outline: 1.07px #262626 solid;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.p_01 {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+}
+
+.onur-ozer {
+    display: flex;
+    align-items: center;
+}
+
+.onurozer_span {
+    color: #374151;
+    font-size: 12.41px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+/* Attendees Section */
+.div_04 {
+    align-self: stretch;
+    height: 75.22px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    border-top: 0.78px #E5E7EB solid;
+}
+
+.h3_01 {
+    width: 293.62px;
+    height: 18.61px;
+    left: 0px;
+    top: 19.39px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text-37-going {
+    width: 58.16px;
+    height: 18.61px;
+    left: 0px;
+    top: 1.55px;
+    position: absolute;
+}
+
+.f7going_span {
+    color: #1F2937;
+    font-size: 12.41px;
+    font-family: 'VAG Rundschrift D';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.div_05 {
+    width: 293.62px;
+    left: 0px;
+    top: 50.40px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9.31px;
+    display: flex;
+}
+
+.div_06 {
+    background: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.img, .img_01, .img_02, .img_03, .img_04 {
+    width: 24.56px;
+    height: 24.56px;
+    box-shadow: 0px 0px 0px white;
+    border-radius: 50%;
+    outline: 1.07px #262626 solid;
+    object-fit: cover;
+    margin-left: -8px;
+    flex-shrink: 0;
+}
+
+.img:first-child {
+    margin-left: 0;
+}
+
+.p_02 {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+}
+
+.elisha-tan-ryan-teo-and-35-others {
+    display: flex;
+    align-items: center;
+}
+
+.elishatanryanteoand35others_span {
+    color: #6B7280;
+    font-size: 10.68px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+/* Contact Section */
+.div_07 {
+    align-self: stretch;
+    height: 56.61px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    border-top: 0.78px #E5E7EB solid;
+}
+
+.span {
+    width: 293.62px;
+    height: 15.51px;
+    left: 0px;
+    top: 19.39px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+}
+
+.contact-host {
+    width: 95.04px;
+    height: 16.02px;
+    left: 0px;
+    top: 0.71px;
+    position: absolute;
+}
+
+.contacthost_span {
+    color: #6B7280;
+    font-size: 10.86px;
+    font-family: 'VAG Rundschrift D';
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.span_01 {
+    width: 293.62px;
+    height: 15.51px;
+    left: 0px;
+    top: 41.10px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+}
+
+.report-event {
+    width: 69.79px;
+    height: 15.51px;
+    left: 0px;
+    top: 0.78px;
+    position: absolute;
+}
+
+.reportevent_span {
+    color: #6B7280;
+    font-size: 10.86px;
+    font-family: 'VAG Rundschrift D';
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+/* Owting Logo */
+.owting_01 {
+    width: 293.67px;
+    height: 77.90px;
+    background: transparent;
+    box-shadow: 0px 4.271605014801025px 8.54321002960205px rgba(0, 0, 0, 0.04);
+    border-radius: 17.09px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.owting_01 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ellipse-564 {
+    width: 10.78px;
+    height: 10.68px;
+    background: #151E52;
+    border-radius: 9999px;
+}
+
+.ellipse-565 {
+    width: 10.78px;
+    height: 10.68px;
+    background: #151E52;
+    border-radius: 9999px;
+}
+
+.ellipse-566 {
+    width: 7.76px;
+    height: 9.71px;
+    background: #FFCB47;
+    outline: 2.46px #151E52 solid;
+    outline-offset: -1.23px;
+}
+
+.vector-157 {
+    width: 1.08px;
+    height: 0.89px;
+    transform: rotate(95deg);
+    transform-origin: top left;
+    outline: 1.35px #EAEDEF solid;
+    outline-offset: -0.67px;
+}
+
+.vector-158 {
+    width: 1.09px;
+    height: 0.81px;
+    transform: rotate(95deg);
+    transform-origin: top left;
+    outline: 1.35px #EAEDEF solid;
+    outline-offset: -0.67px;
+}
+
+.owting {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.owting_span {
+    color: #151E52;
+    font-size: 44.17px;
+    font-family: 'VAG Rundschrift D';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Details Section */
+.details {
+    flex: 1;
+    max-width: 567px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 24px;
+    display: flex;
+}
+
+/* Title Deets */
+.title-deets {
+    width: 100%;
+    max-width: 567.06px;
+    background: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25.63px;
+    display: flex;
+}
+
+.frame-1171276084 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: flex;
+}
+
+.div_08 {
+    height: 23.32px;
+    padding: 0 9.99px;
+    background: #B6ECFF;
+    border-radius: 8326.57px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.66px;
+    display: inline-flex;
+}
+
+.margin-undefined {
+    background: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+}
+
+.climbing_span {
+    color: #046F95;
+    font-size: 11.66px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 14px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    align-self: stretch;
+    background: rgba(0, 0, 0, 0);
+}
+
+.ruby-sg-november-meetup {
+    width: 100%;
+}
+
+.rubysgnovembermeetup_span {
+    color: #111827;
+    font-size: 36px;
+    font-family: 'VAG Rundschrift D';
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+/* Date Time */
+.frame-1171276085 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 17.09px;
+    display: flex;
+}
+
+.frame-1171276078 {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+}
+
+/* Location Section */
+.location-section {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+}
+
+.location-section .div_09 {
+    width: 48px;
+    height: 48px;
+    background: #F3F4F6;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.location-section .div_09 svg {
+    width: 20px;
+    height: 24px;
+}
+
+.location-section .frame-1171276077 {
+    flex: 1;
+    height: 39.97px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.location-name {
+    align-self: stretch;
+    height: 19px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8.54px;
+    display: flex;
+}
+
+.location-name-span {
+    color: #111827;
+    font-size: 12.81px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    word-wrap: break-word;
+    flex: 1;
+}
+
+.location-address {
+    align-self: stretch;
+    height: 20.97px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8.54px;
+    display: flex;
+}
+
+.location-address-span {
+    color: #6B7280;
+    font-size: 10.68px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+    flex: 1;
+}
+
+.div_09 {
+    width: 48px;
+    height: 48px;
+    background: #F3F4F6;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.span_02 {
+    width: 22.38px;
+    height: 13.32px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.nov {
+    width: 23.49px;
+    height: 13.88px;
+    left: -0.25px;
+    top: -0.13px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.nov_span {
+    color: #374151;
+    font-size: 9.99px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.span_03 {
+    width: 14.35px;
+    height: 19.99px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text-13 {
+    width: 15.82px;
+    height: 19.99px;
+    left: 0px;
+    top: 1.67px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.f3_span {
+    color: #374151;
+    font-size: 13.32px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.frame-1171276077 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    display: flex;
+}
+
+.wednesday-november-13 {
+    align-self: stretch;
+    height: 16.02px;
+}
+
+.wednesdaynovember13_span {
+    color: #111827;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.text-630-pm---830-pm-gmt8 {
+    align-self: stretch;
+}
+
+.f30pm-830pmgmt8_span {
+    color: #6B7280;
+    font-size: 10.68px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+/* RSVP Section */
+.rsvp {
+    padding-left: 22.43px;
+    padding-right: 22.43px;
+    padding-top: 14.95px;
+    padding-bottom: 14.95px;
+    background: white;
+    box-shadow: 0px 4.271605014801025px 8.54321002960205px rgba(0, 0, 0, 0.04);
+    border-radius: 11.07px;
+    outline: 0.69px #E5E7EB solid;
+    outline-offset: -0.69px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8.54px;
+    display: flex;
+}
+
+.frame-1171276091 {
+    width: 522.20px;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16.85px;
+    display: flex;
+}
+
+.frame-1171276090 {
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+}
+
+.frame-1171276089 {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5.32px;
+    display: inline-flex;
+}
+
+.h3_02 {
+    align-self: stretch;
+    height: 19.37px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.join-the-event-on-owting {
+    width: 176.52px;
+    height: 19.51px;
+    left: -0.44px;
+    top: 1.33px;
+    position: absolute;
+}
+
+.jointheeventonowting_span {
+    color: #111827;
+    font-size: 13.83px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.text {
+    align-self: stretch;
+    height: 13.83px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.a-quick-rsvp-to-confirm-your-spot-and-get-event-updates {
+    width: 279.42px;
+    height: 14.19px;
+    left: -0.44px;
+    top: 0.38px;
+    position: absolute;
+}
+
+.aquickrsvptoconfirmyourspotandgeteventupdates_span {
+    color: #4B5563;
+    font-size: 9.68px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.div_10 {
+    width: 87.37px;
+    height: 16.60px;
+    background: #B6ECFF;
+    border-radius: 6916.37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.starting-in-4h-34m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startingin4h34m_span {
+    color: #151E52;
+    font-size: 8.30px;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 10.68px;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+/* Form Inputs */
+.div_11 {
+    width: 522.20px;
+    background: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10.64px;
+    display: flex;
+}
+
+.div_12 {
+    align-self: stretch;
+    background: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10.64px;
+    display: inline-flex;
+}
+
+.input, .input_01 {
+    width: 255.70px;
+    height: 34.59px;
+    background: white;
+    border-radius: 5.53px;
+    border: 0.69px solid #E5E7EB;
+    padding: 0 11.07px;
+    color: #111827;
+    font-size: 11.07px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 16.60px;
+    transition: border-color 0.3s ease;
+}
+
+.input::placeholder, .input_01::placeholder, .input_02::placeholder, .input_03::placeholder {
+    color: #ADAEBC;
+}
+
+.input:focus, .input_01:focus, .input_02:focus, .input_03:focus {
+    outline: none;
+    border-color: #151E52;
+}
+
+.input_02, .input_03 {
+    align-self: stretch;
+    height: 34.59px;
+    background: white;
+    border-radius: 5.53px;
+    border: 0.69px solid #E5E7EB;
+    padding: 0 11.07px;
+    color: #111827;
+    font-size: 11.07px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 16.60px;
+    transition: border-color 0.3s ease;
+}
+
+.first-name, .last-name, .phone-number, .email-address {
+    width: 255.93px;
+    height: 34.59px;
+    left: 11.07px;
+    top: 0px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-number, .email-address {
+    width: 522.93px;
+}
+
+.firstname_span, .lastname_span, .phonenumber_span, .emailaddress_span {
+    color: #ADAEBC;
+    font-size: 11.07px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 16.60px;
+    word-wrap: break-word;
+}
+
+/* RSVP Button */
+.send-poll-button {
+    width: 522px;
+    height: 38px;
+    background: #151E52;
+    border-radius: 31.27px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9.22px;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.send-poll-button:hover {
+    background: #1e40af;
+    transform: translateY(-1px);
+}
+
+.send-poll-button:active {
+    transform: translateY(0);
+}
+
+.rsvp_01 {
+    width: 98.25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.rsvp_01_span {
+    color: #FAFAFA;
+    font-size: 12.81px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 8.97px;
+    word-wrap: break-word;
+}
+
+/* Can't Make It */
+.div_13 {
+    align-self: stretch;
+    height: 13.83px;
+    background: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    gap: 16.60px;
+    display: inline-flex;
+}
+
+.span_04 {
+    width: 66.53px;
+    height: 13.31px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.cant-make-it {
+    width: 68.48px;
+    height: 13.83px;
+    left: 1.36px;
+    top: 0.69px;
+    position: absolute;
+}
+
+.cantmakeit_span {
+    color: #6B7280;
+    font-size: 9.68px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+/* Footer Owting App Link */
+.footer-owting-app-link {
+    align-self: stretch;
+    height: 51.26px;
+    padding-top: 10.64px;
+    background: rgba(0, 0, 0, 0);
+    border-top: 0.69px #E5E7EB solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7.10px;
+    display: flex;
+}
+
+.span_05 {
+    align-self: stretch;
+    height: 30.44px;
+    background: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.div_14 {
+    width: 173.64px;
+    background: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.p_03 {
+    align-self: stretch;
+    height: 16.85px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.already-on-owting-open-in-app {
+    width: 175.63px;
+    height: 15.97px;
+    left: 0px;
+    top: 1.77px;
+    position: absolute;
+}
+
+.alreadyonowtingopeninapp_span {
+    color: #1F2937;
+    font-size: 10.64px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.p_04 {
+    width: 173.64px;
+    height: 13.83px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.profile-complete-reminder-email {
+    width: 151.68px;
+    height: 13.31px;
+    left: -0.44px;
+    top: 1.03px;
+    position: absolute;
+}
+
+.profilecompletereminderemail_span {
+    color: #6B7280;
+    font-size: 8.87px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.i {
+    width: 6.92px;
+    height: 16.60px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.svg {
+    width: 6.92px;
+    height: 11.07px;
+    left: 0px;
+    top: 2.77px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.frame {
+    width: 6.92px;
+    height: 11.07px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.vector {
+    width: 5.53px;
+    height: 9.69px;
+    left: 1.38px;
+    top: 0.69px;
+    position: absolute;
+    background: #9CA3AF;
+}
+
+/* About Event */
+.frame-1171276095 {
+    align-self: stretch;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8.54px;
+    display: flex;
+}
+
+.frame-1171276094 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6.41px;
+    display: flex;
+}
+
+/* About Event Content Wrapper */
+.about-event-content-wrapper {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Map Container */
+.map-container {
+    flex-shrink: 0;
+    width: 189.02px;
+    height: 177.15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11.89px 11.89px 5.96px 11.89px;
+    align-self: flex-start;
+}
+
+.location-map {
+    width: 165.24px;
+    height: 165.24px;
+    display: block;
+    border-radius: 4.72px;
+    border: 1.94px solid #000000;
+    box-shadow: 0px 4.271605014801025px 8.54321002960205px rgba(0, 0, 0, 0.04);
+    object-fit: cover;
+}
+
+.h3_03 {
+    width: 552.01px;
+    height: 19.19px;
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+}
+
+.about-event {
+    width: 85.68px;
+    height: 19.19px;
+    left: 0px;
+    top: 1.37px;
+    position: absolute;
+}
+
+.aboutevent_span {
+    color: #111827;
+    font-size: 12.81px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.frame-1171276093 {
+    align-self: stretch;
+    flex: 1;
+    padding-top: 8.54px;
+    padding-bottom: 8.54px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8.54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.join-fellow-developers-and-tech-enthusiasts-for-the-ruby-sg-november-meetup-an-evening-of-learning-sharing-and-community-connection-expect-lightning-talks-project-demos-and-discussions-around-the-latest-ruby-and-rails-updates-whether-youre-a-seasoned-developer-or-just-starting-out-this-is-a-great-opportunity-to-network-with-the-local-ruby-community-and-exchange-insights-on-real-world-challenges-best-practices-and-new-updates-this-meetup-is-for-everyone-whether-youre-a-principal-engineer-who-has-been-optimising-rails-apps-for-a-decade-or-a-student-just-starting-your-coding-journey-your-voice-and-perspective-are-welcome {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.joinfellowdevelopersandtechenthusiastsfortherubysgnovembermeetupaneveningoflearningsharingandcommunityconnectionexpectlightningtalksprojectdemosanddiscussionsaroundthelatestrubyandrailsupdateswhetheryoureaseasoneddeveloperorjuststartingoutthisisagreatopportunitytonetworkwiththelocalrubycommunityandexchangeinsightsonreal-worldchallengesbestpracticesandnewupdatesthismeetupisforeveryonewhetheryoureaprincipalengineerwhohasbeenoptimisingrailsappsforadecadeorastudentjuststartingyourcodingjourneyyourvoiceandperspectivearewelcome_span {
+    color: #4B5563;
+    font-size: 10.68px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.joinfellowdevelopersandtechenthusiastsfortherubysgnovembermeetupaneveningoflearningsharingandcommunityconnectionexpectlightningtalksprojectdemosanddiscussionsaroundthelatestrubyandrailsupdateswhetheryoureaseasoneddeveloperorjuststartingoutthisisagreatopportunitytonetworkwiththelocalrubycommunityandexchangeinsightsonreal-worldchallengesbestpracticesandnewupdatesthismeetupisforeveryonewhetheryoureaprincipalengineerwhohasbeenoptimisingrailsappsforadecadeorastudentjuststartingyourcodingjourneyyourvoiceandperspectivearewelcome_span strong {
+    font-weight: 600;
+    color: #374151;
+}
+
+/* Responsive Design */
+
+/* Tablet and below */
+@media (max-width: 1024px) {
+    .plans---rsvp-hide-location {
+        padding: 20px 16px;
+    }
+    
+    .frame-1171276088 {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        max-width: 100%;
+        padding: 24px;
+        align-items: stretch;
+    }
+    
+    .event-details-banner {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .div {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .div_01 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        max-height: 400px;
+    }
+    
+    .frame-1171276092,
+    .div_04,
+    .div_07 {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .owting_01 {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .details {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .title-deets {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .rsvp {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .frame-1171276091 {
+        width: 100%;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .plans---rsvp-hide-location {
+        padding: 16px 12px;
+    }
+    
+    .frame-1171276088 {
+        padding: 16px;
+        border-radius: 16px;
+        gap: 20px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    /* Event Image - maintains aspect ratio, never skewed */
+    .div_01 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        max-height: 350px;
+        min-height: 250px;
+    }
+    
+    /* All fixed-width containers */
+    .div,
+    .frame-1171276092,
+    .div_04,
+    .div_07 {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    /* Owting Banner - Mobile */
+    .owting_01 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 293.67 / 77.90;
+        padding: 0;
+        flex-shrink: 0;
+    }
+    
+    .owting_01 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* Title Section */
+    .title-deets {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .frame-1171276084 {
+        width: 100%;
+    }
+    
+    /* Event Title */
+    .h2 {
+        width: 100%;
+    }
+    
+    .rubysgnovembermeetup_span {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    
+    /* Climbing Pill */
+    .div_08 {
+        height: 22px;
+        padding: 0 10px;
+    }
+    
+    .climbing_span {
+        font-size: 11px;
+    }
+    
+    /* Date/Time Section */
+    .frame-1171276085,
+    .frame-1171276078 {
+        width: 100%;
+    }
+    
+    .div_09 {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+    
+    .nov_span {
+        font-size: 9px;
+    }
+    
+    .f3_span {
+        font-size: 12px;
+    }
+    
+    .frame-1171276077 {
+        flex: 1;
+    }
+    
+    .wednesdaynovember13_span {
+        font-size: 12px;
+    }
+    
+    .f30pm-830pmgmt8_span {
+        font-size: 10px;
+    }
+    
+    /* RSVP Form */
+    .details {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .rsvp {
+        width: 100%;
+        max-width: 100%;
+        padding: 16px;
+    }
+    
+    .frame-1171276091 {
+        width: 100%;
+    }
+    
+    .frame-1171276090 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    
+    .frame-1171276089 {
+        width: 100%;
+    }
+    
+    .h3_02 {
+        width: 100%;
+    }
+    
+    .div_11 {
+        width: 100%;
+    }
+    
+    .div_12 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .input, .input_01, .input_02, .input_03 {
+        width: 100% !important;
+        max-width: 100%;
+        height: 42px;
+        font-size: 14px;
+        padding: 10px 14px;
+        box-sizing: border-box;
+    }
+    
+    .send-poll-button {
+        width: 100%;
+        max-width: 100%;
+        height: 46px;
+    }
+    
+    .rsvp_01_span {
+        font-size: 15px;
+    }
+    
+    /* Starting pill */
+    .div_10 {
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        flex-shrink: 0;
+    }
+    
+    .startingin4h34m_span {
+        font-size: 8px;
+    }
+    
+    /* Location Section - Mobile */
+    .location-section {
+        margin-top: 12px;
+    }
+    
+    .location-section .div_09 {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .location-section .div_09 svg {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .location-name {
+        height: auto;
+    }
+    
+    .location-name-span {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    .location-address {
+        height: auto;
+    }
+    
+    .location-address-span {
+        font-size: 10px;
+        line-height: 1.4;
+    }
+    
+    /* About Event */
+    .frame-1171276095,
+    .frame-1171276094,
+    .frame-1171276093 {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .about-event-content-wrapper {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .map-container {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        padding: 12px;
+    }
+    
+    .location-map {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .h3_03 {
+        width: 100%;
+    }
+    
+    .aboutevent_span {
+        font-size: 12px;
+    }
+    
+    .join-fellow-developers-and-tech-enthusiasts-for-the-ruby-sg-november-meetup-an-evening-of-learning-sharing-and-community-connection-expect-lightning-talks-project-demos-and-discussions-around-the-latest-ruby-and-rails-updates-whether-youre-a-seasoned-developer-or-just-starting-out-this-is-a-great-opportunity-to-network-with-the-local-ruby-community-and-exchange-insights-on-real-world-challenges-best-practices-and-new-updates-this-meetup-is-for-everyone-whether-youre-a-principal-engineer-who-has-been-optimising-rails-apps-for-a-decade-or-a-student-just-starting-your-coding-journey-your-voice-and-perspective-are-welcome {
+        width: 100%;
+    }
+    
+    .joinfellowdevelopersandtechenthusiastsfortherubysgnovembermeetupaneveningoflearningsharingandcommunityconnectionexpectlightningtalksprojectdemosanddiscussionsaroundthelatestrubyandrailsupdateswhetheryoureaseasoneddeveloperorjuststartingoutthisisagreatopportunitytonetworkwiththelocalrubycommunityandexchangeinsightsonreal-worldchallengesbestpracticesandnewupdatesthismeetupisforeveryonewhetheryoureaprincipalengineerwhohasbeenoptimisingrailsappsforadecadeorastudentjuststartingyourcodingjourneyyourvoiceandperspectivearewelcome_span {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+    
+    /* Host/Attendee sections */
+    .avatar, .avatar_01 {
+        width: 26px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+    
+    .tedjohansson_span,
+    .onurozer_span {
+        font-size: 11.5px;
+    }
+    
+    .img, .img_01, .img_02, .img_03, .img_04 {
+        width: 22px;
+        height: 22px;
+        flex-shrink: 0;
+    }
+    
+    .div_06 {
+        flex-wrap: wrap;
+    }
+    
+    .elishatanryanteoand35others_span {
+        font-size: 9.5px;
+    }
+    
+    .f7going_span {
+        font-size: 11.5px;
+    }
+    
+    /* Footer */
+    .footer---owting-applink {
+        width: 100%;
+    }
+    
+    .span_05 {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .div_14 {
+        width: 100%;
+    }
+    
+    .alreadyonowtingopeninapp_span {
+        font-size: 10px;
+    }
+    
+    .profilecompletereminderemail_span {
+        font-size: 8px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .plans---rsvp-hide-location {
+        padding: 12px 8px;
+    }
+    
+    .frame-1171276088 {
+        padding: 12px;
+        border-radius: 12px;
+        gap: 16px;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .div_01 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        max-height: 280px;
+        min-height: 200px;
+    }
+    
+    .rubysgnovembermeetup_span {
+        font-size: 22px;
+    }
+    
+    .input, .input_01, .input_02, .input_03 {
+        width: 100% !important;
+        max-width: 100%;
+        height: 46px;
+        font-size: 16px;
+        padding: 12px 14px;
+        box-sizing: border-box;
+    }
+    
+    .send-poll-button {
+        width: 100%;
+        max-width: 100%;
+        height: 50px;
+    }
+    
+    .div_09 {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .owting_01 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Focus states for accessibility */
+input:focus,
+button:focus {
+    outline: 2px solid #151E52;
+    outline-offset: 2px;
+}
+
+/* Hover effects */
+.contacthost_span:hover,
+.reportevent_span:hover,
+.cantmakeit_span:hover {
+    opacity: 0.7;
+}
+
+.send-poll-button:hover {
+    background: #0f172a;
+}
+
+/* Smooth transitions */
+* {
+    transition: all 0.3s ease;
+}

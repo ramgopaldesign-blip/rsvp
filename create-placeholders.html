@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder Image Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .placeholder {
+            width: 400px;
+            height: 300px;
+            background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+            border: 2px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .placeholder-text {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .download-btn {
+            background: #007AFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        .download-btn:hover {
+            background: #0056CC;
+        }
+    </style>
+</head>
+<body>
+    <h1>Portfolio Website Placeholder Images</h1>
+    <p>Right-click on each image below and select "Save image as..." to download them to your images folder.</p>
+    
+    <div>
+        <h3>Nocle Project</h3>
+        <div class="placeholder">
+            <div class="placeholder-text">Nocle macOS App<br>400x300</div>
+        </div>
+        <button class="download-btn" onclick="downloadImage('nocle-project.jpg')">Download Nocle Image</button>
+    </div>
+    
+    <div>
+        <h3>Lucide Icons</h3>
+        <div class="placeholder">
+            <div class="placeholder-text">Lucide Icons Motion<br>400x300</div>
+        </div>
+        <button class="download-btn" onclick="downloadImage('lucide-icons.jpg')">Download Lucide Image</button>
+    </div>
+    
+    <div>
+        <h3>PM Design</h3>
+        <div class="placeholder">
+            <div class="placeholder-text">Project Management<br>400x300</div>
+        </div>
+        <button class="download-btn" onclick="downloadImage('pm-design.jpg')">Download PM Image</button>
+    </div>
+    
+    <div>
+        <h3>Trustloop</h3>
+        <div class="placeholder">
+            <div class="placeholder-text">Trustloop Onboarding<br>400x300</div>
+        </div>
+        <button class="download-btn" onclick="downloadImage('trustloop.jpg')">Download Trustloop Image</button>
+    </div>
+    
+    <div>
+        <h3>Letterboxd</h3>
+        <div class="placeholder">
+            <div class="placeholder-text">Letterboxd Redesign<br>400x300</div>
+        </div>
+        <button class="download-btn" onclick="downloadImage('letterboxd.jpg')">Download Letterboxd Image</button>
+    </div>
+    
+    <div>
+        <h3>DoorDash</h3>
+        <div class="placeholder">
+            <div class="placeholder-text">DoorDash UX Study<br>400x300</div>
+        </div>
+        <button class="download-btn" onclick="downloadImage('doordash.jpg')">Download DoorDash Image</button>
+    </div>
+    
+    <script>
+        function downloadImage(filename) {
+            // Create a canvas with the placeholder
+            const canvas = document.createElement('canvas');
+            canvas.width = 400;
+            canvas.height = 300;
+            const ctx = canvas.getContext('2d');
+            
+            // Create gradient background
+            const gradient = ctx.createLinearGradient(0, 0, 400, 300);
+            gradient.addColorStop(0, '#f0f0f0');
+            gradient.addColorStop(1, '#e0e0e0');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 400, 300);
+            
+            // Add border
+            ctx.strokeStyle = '#ccc';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(1, 1, 398, 298);
+            
+            // Add text
+            ctx.fillStyle = '#666';
+            ctx.font = 'bold 18px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText(filename.replace('.jpg', '').replace('-', ' ').toUpperCase(), 200, 140);
+            ctx.fillText('400x300', 200, 170);
+            
+            // Download the image
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+    </script>
+</body>
+</html> 

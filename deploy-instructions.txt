@@ -1,0 +1,8 @@
+DEPLOY TO VERCEL:
+1. Install Vercel CLI: npm i -g vercel
+2. Run: vercel
+3. Follow prompts (press Enter for defaults)
+4. Get live URL instantly!
+
+OR use web: https://vercel.com/new
+- Drag folder or connect Git repo
