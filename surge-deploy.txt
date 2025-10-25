@@ -1,7 +1,0 @@
-DEPLOY WITH SURGE:
-1. Install: npm install -g surge
-2. Run: surge
-3. Press Enter to accept defaults
-4. Get URL: https://your-project-name.surge.sh
-
-Done in 30 seconds!
