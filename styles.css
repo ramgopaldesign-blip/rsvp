@@ -1,14 +1,3 @@
-/* Font Face */
-@font-face {
-    font-family: 'VAG Rundschrift D';
-    src: url('fonts/VAGRundschriftD.woff2') format('woff2'),
-         url('fonts/VAGRundschriftD.woff') format('woff'),
-         url('fonts/VAGRundschriftD.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -119,7 +108,7 @@ img {
 .hostedby_span {
     color: #1F2937;
     font-size: 12.41px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -156,7 +145,7 @@ img {
 .tedjohansson_span {
     color: #374151;
     font-size: 12.41px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 500;
     word-wrap: break-word;
     line-height: 1;
@@ -195,7 +184,7 @@ img {
 .onurozer_span {
     color: #374151;
     font-size: 12.41px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 500;
     word-wrap: break-word;
     line-height: 1;
@@ -230,7 +219,7 @@ img {
 .f7going_span {
     color: #1F2937;
     font-size: 12.41px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -283,7 +272,7 @@ img {
 .elishatanryanteoand35others_span {
     color: #6B7280;
     font-size: 10.68px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
     line-height: 1.4;
@@ -318,7 +307,7 @@ img {
 .contacthost_span {
     color: #6B7280;
     font-size: 10.86px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
     cursor: pointer;
@@ -344,7 +333,7 @@ img {
 .reportevent_span {
     color: #6B7280;
     font-size: 10.86px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
     cursor: pointer;
@@ -423,7 +412,7 @@ img {
 .owting_span {
     color: #151E52;
     font-size: 44.17px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -506,7 +495,7 @@ img {
 .rubysgnovembermeetup_span {
     color: #111827;
     font-size: 36px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     line-height: 1.2;
     word-wrap: break-word;
@@ -577,7 +566,7 @@ img {
 .location-name-span {
     color: #111827;
     font-size: 12.81px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 600;
     word-wrap: break-word;
     flex: 1;
@@ -597,7 +586,7 @@ img {
 .location-address-span {
     color: #6B7280;
     font-size: 10.68px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
     flex: 1;
@@ -637,7 +626,7 @@ img {
 .nov_span {
     color: #374151;
     font-size: 9.99px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -664,7 +653,7 @@ img {
 .f3_span {
     color: #374151;
     font-size: 13.32px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -686,7 +675,7 @@ img {
 .wednesdaynovember13_span {
     color: #111827;
     font-size: 14px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 600;
     line-height: 1.4;
     word-wrap: break-word;
@@ -699,7 +688,7 @@ img {
 .f30pm-830pmgmt8_span {
     color: #6B7280;
     font-size: 10.68px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     line-height: 1.4;
     word-wrap: break-word;
@@ -768,7 +757,7 @@ img {
 .jointheeventonowting_span {
     color: #111827;
     font-size: 13.83px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -791,7 +780,7 @@ img {
 .aquickrsvptoconfirmyourspotandgeteventupdates_span {
     color: #4B5563;
     font-size: 9.68px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -852,7 +841,7 @@ img {
     padding: 0 11.07px;
     color: #111827;
     font-size: 11.07px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     line-height: 16.60px;
     transition: border-color 0.3s ease;
@@ -876,7 +865,7 @@ img {
     padding: 0 11.07px;
     color: #111827;
     font-size: 11.07px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     line-height: 16.60px;
     transition: border-color 0.3s ease;
@@ -900,7 +889,7 @@ img {
 .firstname_span, .lastname_span, .phonenumber_span, .emailaddress_span {
     color: #ADAEBC;
     font-size: 11.07px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     line-height: 16.60px;
     word-wrap: break-word;
@@ -942,7 +931,7 @@ img {
 .rsvp_01_span {
     color: #FAFAFA;
     font-size: 12.81px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 700;
     line-height: 8.97px;
     word-wrap: break-word;
@@ -1033,7 +1022,7 @@ img {
 .alreadyonowtingopeninapp_span {
     color: #1F2937;
     font-size: 10.64px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 600;
     word-wrap: break-word;
 }
@@ -1056,7 +1045,7 @@ img {
 .profilecompletereminderemail_span {
     color: #6B7280;
     font-size: 8.87px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -1163,7 +1152,7 @@ img {
 .aboutevent_span {
     color: #111827;
     font-size: 12.81px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 700;
     word-wrap: break-word;
 }
@@ -1190,7 +1179,7 @@ img {
 .joinfellowdevelopersandtechenthusiastsfortherubysgnovembermeetupaneveningoflearningsharingandcommunityconnectionexpectlightningtalksprojectdemosanddiscussionsaroundthelatestrubyandrailsupdateswhetheryoureaseasoneddeveloperorjuststartingoutthisisagreatopportunitytonetworkwiththelocalrubycommunityandexchangeinsightsonreal-worldchallengesbestpracticesandnewupdatesthismeetupisforeveryonewhetheryoureaprincipalengineerwhohasbeenoptimisingrailsappsforadecadeorastudentjuststartingyourcodingjourneyyourvoiceandperspectivearewelcome_span {
     color: #4B5563;
     font-size: 10.68px;
-    font-family: 'VAG Rundschrift D';
+    font-family: 'Poppins';
     font-weight: 400;
     word-wrap: break-word;
     line-height: 1.6;
